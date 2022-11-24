@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome"/>
+  <CarouselView />
+  <AppBar />
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Welcome" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import CarouselView from "./components/CarouselView.vue";
+import AppBar from "./components/AppBar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    CarouselView,
+    AppBar,
+  },
+};
 </script>
 
 <style>

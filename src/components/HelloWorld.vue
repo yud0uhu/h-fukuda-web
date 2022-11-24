@@ -1,11 +1,5 @@
 <template>
   <div class="hello">
-    <v-layout>
-      <v-app-bar elevation="5" shaped>
-        <v-app-bar-title>aaa</v-app-bar-title>
-      </v-app-bar>
-    </v-layout>
-
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -93,11 +87,14 @@
 </template>
 
 <script>
+// import { VLayout } from "vuetify/lib/components";
+
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
   },
+  // components: { VLayout },
 };
 </script>
 
