@@ -1,21 +1,26 @@
 <template>
   <CarouselView />
   <AppBar />
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome" />
+  <NewsImg img="a" class="mb-10" />
+  <NewsImg img="a" class="mb-10" />
+  <FooterMenu />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+//import HelloWorld from "./components/HelloWorld.vue";
 import CarouselView from "./components/CarouselView.vue";
 import AppBar from "./components/AppBar.vue";
+import NewsImg from "./components/NewsImg.vue";
+import FooterMenu from "./components/FooterMenu.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // HelloWorld,
     CarouselView,
     AppBar,
+    NewsImg,
+    FooterMenu,
   },
 };
 </script>
