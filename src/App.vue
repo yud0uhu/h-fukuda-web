@@ -1,8 +1,9 @@
 <template>
-  <CarouselView />
   <AppBar />
+  <CarouselView />
   <NewsImg img="a" class="mb-10" />
   <NewsImg img="a" class="mb-10" />
+  <CistName />
   <FooterMenu />
 </template>
 
@@ -12,6 +13,7 @@ import CarouselView from "./components/CarouselView.vue";
 import AppBar from "./components/AppBar.vue";
 import NewsImg from "./components/NewsImg.vue";
 import FooterMenu from "./components/FooterMenu.vue";
+import CistName from "./components/CistName.vue";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     CarouselView,
     AppBar,
     NewsImg,
+    CistName,
     FooterMenu,
   },
 };

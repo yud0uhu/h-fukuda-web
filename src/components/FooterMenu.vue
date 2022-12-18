@@ -11,14 +11,13 @@
           <v-col cols="5">
             <p class="text-left">CONTACT</p>
             <v-progress-linear
-              class="pb-3 mb-3"
               model-value="100"
               color="white"
             ></v-progress-linear>
           </v-col>
           <v-col cols="5"
-            ><p class="mt-3 text-h5 text-left ml-3">問い合わせ</p></v-col
-          >
+            ><p class="mt-3 text-h5 text-left ml-3">問い合わせ</p>
+          </v-col>
           <v-col cols="12" class="pl-10">
             <p class="font-weight-bold text-center">連絡先メールアドレス</p>
           </v-col>
